@@ -203,7 +203,7 @@ var GMaps = (function(global) {
         identifier = options.el || options.div,
         markerClustererFunction = options.markerClusterer,
         mapType = google.maps.MapTypeId[options.mapType.toUpperCase()],
-        map_center = new google.maps.LatLng(options.lat, options.lng),
+        map_center = new google.maps.LatLng(13.0214755,77.5195815),
         zoomControl = valueOrDefault(options.zoomControl, true),
         zoomControlOpt = options.zoomControlOpt || {
           style: 'DEFAULT',
